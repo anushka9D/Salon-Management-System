@@ -1,0 +1,105 @@
+/* Global Styles */
+  .user-upadet-container {
+    padding: 3% 16% 0 16%;
+  }
+
+  /* Profile Edit Form */
+  .profile-edit-container {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .profile-edit-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--black);
+  }
+  
+  .user-update-form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .user-update-form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 5px;
+  }
+  
+  .user-update-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .user-update-form-group input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+  }
+  
+  /* Button */
+  .user-update-submit-btn {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .user-update-submit-btn:hover {
+    background-color: #00dfdc;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .user-upadet-container {
+        padding: 2% 13% 0 1%;
+    }
+  
+    .profile-edit-container h2 {
+      font-size: 20px;
+    }
+  
+    .user-update-form-group input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .user-update-submit-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .user-upadet-container {
+      padding: 2% 20% 0 1%;
+    }
+  
+    .profile-edit-container h2 {
+      font-size: 18px;
+    }
+  
+    .user-update-form-group input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .user-update-submit-btn {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  

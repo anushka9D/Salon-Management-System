@@ -1,0 +1,27 @@
+/*
+  color
+Main Colors: Soft Gray (#B0B0B0), White (#FFFFFF), Charcoal (#333333)
+
+Accent Colors: Aqua Blue (#00A9A6), Silver (#C0C0C0)  • Buttons
+• Pop Ups
+• Highlights
+
+
+https://houseofdearhairsalon.com/hair-salon-products/
+*/
+
+:root {
+    --gray: #B0B0B0;
+    --white: #FFFFFF;
+    --black: #333333;
+    /* Accent Colors */
+    --blue: #00A9A6;
+    --silver: #C0C0C0;
+
+    --background: #f4f7fc;
+  }
+
+  body {
+    background-color: var(--background);
+  }
+  
